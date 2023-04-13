@@ -47,4 +47,20 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+button {
+  border: none;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  background: #0faf87;
+}
+
+button[disabled] {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
 </style>
